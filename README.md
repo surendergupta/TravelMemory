@@ -71,7 +71,8 @@ Data format to be added:
 10. Message show Server started at http://localhost:3000 change localhost to public ip address of instance http://44.211.55.91:3000
 11. If open url http://44.211.55.91:3000 and show Cannot GET / its means successfully running backend.
 12. Back to Instance list created by you and click on frontend-tm-suri instance id (i-02bf2a29cef0b2be5) and show next screen Instance summary for i-04a5488bfd757ada8 (backend-tm-suri) click connect 
-13. Next screen Connect to instance click connect and Next Open Terminal type some commands ```
+13. Next screen Connect to instance click connect and Next Open Terminal type some commands
+    ```
     13.1 sudo apt-get update
     13.2 sudo apt-get install -y ca-certificates curl gnupg
     13.3 sudo mkdir -p /etc/apt/keyrings
@@ -102,5 +103,8 @@ Data format to be added:
     ```
 14. For database of Mongoose goto https://www.mongodb.com/atlas/database. If already have account login otherwise signup.
 15. After Login create cluster and setup Database Access, Setup Network Access for security purpose. Also create collection with name tripdetails and put json data above we write.
-16. click on connect from Database Deployment section, Now Open Popup select compass and copy connection string like ; mongodb+srv://<username>:<password>@taskmanagementcluster.tsyynim.mongodb.net/
+16. click on connect from Database Deployment section, Now Open Popup select compass and copy connection string like:
+    ```
+    mongodb+srv://<username>:<password>@taskmanagementcluster.tsyynim.mongodb.net/
+    ```
 17. In connection string add database name after slash at the end is done database setup complete.
